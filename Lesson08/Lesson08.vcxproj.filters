@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\deps\include\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="multipleLight.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipleLight.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragmentShader.frag" />
+    <None Include="vertexShader.vert" />
+    <None Include="Debug\vc142.pdb" />
+    <None Include="Debug\vc142.idb" />
+    <None Include="Debug\Lesson08.ilk" />
+    <None Include="Debug\Lesson08.exe.recipe" />
+    <None Include="Debug\Lesson07.tlog\link.write.1.tlog" />
+    <None Include="Debug\Lesson07.tlog\link.read.1.tlog" />
+    <None Include="Debug\Lesson07.tlog\link.command.1.tlog" />
+    <None Include="Debug\Lesson07.tlog\Lesson07.lastbuildstate" />
+    <None Include="Debug\Lesson07.tlog\CL.write.1.tlog" />
+    <None Include="Debug\Lesson07.tlog\CL.read.1.tlog" />
+    <None Include="Debug\Lesson07.tlog\CL.command.1.tlog" />
+    <None Include="Debug\Lesson06.tlog\link.write.1.tlog" />
+    <None Include="Debug\Lesson06.tlog\link.read.1.tlog" />
+    <None Include="Debug\Lesson06.tlog\link.command.1.tlog" />
+    <None Include="Debug\Lesson06.tlog\Lesson06.lastbuildstate" />
+    <None Include="Debug\Lesson06.tlog\CL.write.1.tlog" />
+    <None Include="Debug\Lesson06.tlog\CL.read.1.tlog" />
+    <None Include="Debug\Lesson06.tlog\CL.command.1.tlog" />
+    <None Include="Debug\Lesson05.tlog\link.write.1.tlog" />
+    <None Include="Debug\Lesson05.tlog\link.read.1.tlog" />
+    <None Include="Debug\Lesson05.tlog\Lesson05.lastbuildstate" />
+    <None Include="Debug\Lesson05.tlog\link.command.1.tlog" />
+    <None Include="Debug\Lesson05.tlog\CL.write.1.tlog" />
+    <None Include="Debug\Lesson05.tlog\CL.read.1.tlog" />
+    <None Include="Debug\Lesson05.tlog\CL.command.1.tlog" />
+    <None Include="Debug\Lesson04.tlog\link.write.1.tlog" />
+    <None Include="Debug\Lesson04.tlog\link.read.1.tlog" />
+    <None Include="Debug\Lesson04.tlog\link.command.1.tlog" />
+    <None Include="Debug\Lesson04.tlog\Lesson04.lastbuildstate" />
+    <None Include="Debug\Lesson04.tlog\CL.write.1.tlog" />
+    <None Include="Debug\Lesson04.tlog\CL.read.1.tlog" />
+    <None Include="Debug\Lesson04.tlog\CL.command.1.tlog" />
+    <None Include="Debug\Lesson03.tlog\link.write.1.tlog" />
+    <None Include="Debug\Lesson03.tlog\link.read.1.tlog" />
+    <None Include="Debug\Lesson03.tlog\link.command.1.tlog" />
+    <None Include="Debug\Lesson03.tlog\Lesson03.lastbuildstate" />
+    <None Include="Debug\Lesson03.tlog\CL.write.1.tlog" />
+    <None Include="Debug\Lesson03.tlog\CL.read.1.tlog" />
+    <None Include="Debug\Lesson03.tlog\CL.command.1.tlog" />
+    <None Include="Debug\Lesson02.tlog\link.write.1.tlog" />
+    <None Include="Debug\Lesson02.tlog\link.read.1.tlog" />
+    <None Include="Debug\Lesson02.tlog\link.command.1.tlog" />
+    <None Include="Debug\Lesson02.tlog\Lesson02.lastbuildstate" />
+    <None Include="Debug\Lesson02.tlog\CL.write.1.tlog" />
+    <None Include="Debug\Lesson02.tlog\CL.read.1.tlog" />
+    <None Include="Debug\Lesson02.tlog\CL.command.1.tlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="crate_diffusemap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="marble_diffusemap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="crate_specularmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="marble_specularmap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Lesson05\lantai.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Dwi Satria Patra\Downloads\kotak.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="crate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="crate_specularmap - Copy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="kotak - Copy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lantai.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lantai_mengkilat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="marble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Debug\RenderEngine.obj" />
+    <Object Include="Debug\glad.obj" />
+    <Object Include="Debug\Demo.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\Lesson08.vcxproj.FileListAbsolute.txt" />
+    <Text Include="Debug\Lesson08.log" />
+    <Text Include="Debug\Lesson08.Build.CppClean.log" />
+    <Text Include="Debug\Lesson07.log" />
+    <Text Include="Debug\Lesson07.Build.CppClean.log" />
+    <Text Include="Debug\Lesson06.log" />
+    <Text Include="Debug\Lesson05.log" />
+    <Text Include="Debug\Lesson04.log" />
+    <Text Include="Debug\Lesson03.log" />
+    <Text Include="Debug\Lesson03.Build.CppClean.log" />
+    <Text Include="Debug\Lesson02.log" />
+    <Text Include="Debug\Lesson02.Build.CppClean.log" />
+  </ItemGroup>
+</Project>
